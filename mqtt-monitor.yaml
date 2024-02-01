@@ -1,0 +1,21 @@
+---
+mqtt_monitor:
+   node_display_name: "Office PC (Shankly)"
+   type: ubuntu
+   network:
+      device_name: enp0s31f6
+   cpu:
+      manufacturer: ASRock
+      model: "B250M Pro4"
+   disks:
+      #CSL of disks to exclude
+      exclude: "/dev/sr0"
+   broker:
+      hostname: "moran.home.lan"
+      user: "mqtt-user"
+      password: "Pl@5m0d!um"
+   app:
+      keep_alive_period: 60
+      data_period: 300
+
+
