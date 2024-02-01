@@ -3,6 +3,10 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+#Don't add personal details in git
+*mqtt-monitor.yaml
+
+
 # C extensions
 *.so
 
