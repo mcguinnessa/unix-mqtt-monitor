@@ -1,19 +1,19 @@
 ---
 mqtt_monitor:
-   node_display_name: "Office PC (Shankly)"
+   node_display_name: "Office PC"
    type: ubuntu
    network:
-      device_name: enp0s31f6
+      device_name: network_name_from_ifconfig
    cpu:
       manufacturer: ASRock
-      model: "B250M Pro4"
+      model: "Model Name"
    disks:
       #CSL of disks to exclude
       exclude: "/dev/sr0"
    broker:
-      hostname: "moran.home.lan"
+      hostname: "broker.lan"
       user: "mqtt-user"
-      password: "Pl@5m0d!um"
+      password: "password"
    app:
       keep_alive_period: 60
       data_period: 300
